@@ -60,6 +60,11 @@ body:lang(fa) h1 {
   font-family: 'Vazir';
 }
 
+body:lang(ko) header,
+body:lang(ko) article {
+  word-break: keep-all;
+}
+
 /**
  * Based on copypasta from Remy Bach and Sarah Drasner
  */
@@ -197,7 +202,7 @@ pre[data-line] {
   margin-right: -1.3125rem;
   margin-left: -1.3125rem;
   padding-right: 1em;
-  padding-left: 0.75em;
+  padding-left: 1.25em;
   border-left: 0.25em solid #ffa7c4;
 }
 
